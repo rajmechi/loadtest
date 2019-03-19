@@ -10,7 +10,7 @@
 while true
 do
 
- parallel -j10 oneShot 
+ parallel -j50 oneShot 
  echo "**"
  sleep 1 
 
