@@ -4,7 +4,7 @@
 #while true; do sleep 12 ; echo "foreground"; done
 
  oneShot() {
-    curl -s -k https://aa-paasport.paaseng.gslb.delta.com | grep LAB
+    curl -s -k xxxx | grep LAB
  }
 
 while true
