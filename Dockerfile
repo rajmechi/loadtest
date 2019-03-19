@@ -1,5 +1,4 @@
-FROM centos7:latest
-
+FROM centos
 RUN  yum -y install curl wget httpd-tools grep parallel
 
 ADD run.sh /tmp/run.sh
