@@ -11,6 +11,7 @@ while true
 do
 
  parallel -j10 oneShot 
+ echo "**"
  sleep 1 
 
 done
