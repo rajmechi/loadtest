@@ -1,6 +1,6 @@
-FROM alpine:3.7
+FROM centos7
 
-RUN apk add --no-cache curl
+RUN  yum -y install -y curl wget httpd-tools grep parallel
 
 ADD run.sh /tmp/run.sh
 RUN chmod +x /tmp/run.sh
